@@ -1,0 +1,25 @@
+{
+  "name": "egg-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.29.1",
+    "egg-sequelize": "^6.0.0",
+    "egg-ua": "^1.0.1",
+    "egg-view-nunjucks": "^2.3.0",
+    "moment": "^2.29.1",
+    "mysql2": "^2.2.5"
+  },
+  "eggPlugin": {
+    "name": "ua"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.15.0"
+  }
+}
